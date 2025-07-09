@@ -3,1252 +3,694 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos Alkilarte - Especialistas en Alquiler de Equipos Certificados | Dosquebradas</title>
-    <meta name="description" content="Especialistas en alquiler de andamios certificados, plantas eléctricas, mezcladoras y equipos de construcción en Dosquebradas, Risaralda. Proyectos reales, inventario disponible 24/7. ☎ 311 740 3766">
-    <meta name="keywords" content="alquiler andamios Dosquebradas, andamios multidireccionales certificados, equipos construcción Pereira, mezcladoras cemento, ranas compactadoras Risaralda, tacos metálicos, cerchas construcción">
-    <meta name="author" content="Equipos Alkilarte">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Equipos Alkilarte - Especialistas en Andamios Certificados">
-    <meta property="og:description" content="Empresa líder en alquiler de equipos de construcción en Dosquebradas. Proyectos reales, inventario disponible.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://equiposalkilarte.com">
-    
-    <!-- Schema.org -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Equipos Alkilarte",
-        "description": "Especialistas en alquiler de equipos certificados para construcción",
-        "url": "http://equiposalkilarte.com",
-        "telephone": "+573117403766",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Dosquebradas",
-            "addressRegion": "Risaralda",
-            "addressCountry": "CO"
-        },
-        "openingHours": "Mo-Sa 07:00-18:00",
-        "services": [
-            "Andamios multidireccionales certificados",
-            "Plantas eléctricas",
-            "Mezcladoras de cemento",
-            "Ranas y canguros vibrocompactadoras",
-            "Tacos metálicos",
-            "Cerchas metálicas",
-            "Tableros antideslizantes"
-        ]
-    }
-    </script>
+    <title>Equipos Alkilarte - Especialistas en Andamios Certificados</title>
+    <meta name="description" content="Alquiler de equipos certificados para construcción en Dosquebradas, Risaralda. Andamios, plantas eléctricas, compactadoras y más. 182+ proyectos exitosos.">
+    <meta name="keywords" content="alquiler equipos construcción, andamios Dosquebradas, plantas eléctricas Pereira, equipos certificados Risaralda">
     
     <style>
-/* Reset y Base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    overflow-x: hidden;
-}
-
-/* Variables CSS */
-:root {
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --secondary-gradient: linear-gradient(135deg, #f093fb, #f5576c);
-    --accent-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    --dark-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    --light-bg: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-    --shadow-light: 0 10px 30px rgba(0,0,0,0.1);
-    --shadow-medium: 0 20px 40px rgba(0,0,0,0.15);
-    --shadow-heavy: 0 30px 60px rgba(0,0,0,0.2);
-    --radius-sm: 10px;
-    --radius-md: 20px;
-    --radius-lg: 30px;
-}
-
-/* WhatsApp Flotante */
-.whatsapp-float {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 70px;
-    height: 70px;
-    background: linear-gradient(135deg, #25d366, #20ba5a);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    font-size: 28px;
-    box-shadow: 0 8px 32px rgba(37, 211, 102, 0.4);
-    z-index: 1000;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    animation: pulse 2s infinite;
-}
-
-.whatsapp-float:hover {
-    transform: scale(1.1) translateY(-5px);
-    box-shadow: 0 15px 40px rgba(37, 211, 102, 0.6);
-    color: white;
-    text-decoration: none;
-}
-
-@keyframes pulse {
-    0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-    70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-}
-
-/* Contenedor */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Hero Section */
-.hero {
-    background: var(--primary-gradient);
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><radialGradient id="a" cx="50%" cy="50%"><stop offset="0%" stop-color="white" stop-opacity="0.1"/><stop offset="100%" stop-color="white" stop-opacity="0"/></radialGradient></defs><ellipse cx="50" cy="0" rx="50" ry="20" fill="url(%23a)"/></svg>');
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-20px); }
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-}
-
-.hero h1 {
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    font-weight: 900;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    animation: slideInDown 1s ease-out;
-}
-
-@keyframes slideInDown {
-    from { opacity: 0; transform: translateY(-50px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.hero-subtitle {
-    font-size: clamp(1.2rem, 4vw, 2rem);
-    margin-bottom: 40px;
-    opacity: 0.95;
-    font-weight: 300;
-    animation: slideInUp 1s ease-out 0.3s both;
-}
-
-@keyframes slideInUp {
-    from { opacity: 0; transform: translateY(50px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.hero-badge {
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(10px);
-    padding: 30px;
-    border-radius: var(--radius-md);
-    margin: 50px auto;
-    max-width: 800px;
-    font-weight: 600;
-    border: 1px solid rgba(255,255,255,0.2);
-    animation: fadeIn 1s ease-out 0.6s both;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-.hero-buttons {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    animation: slideInUp 1s ease-out 0.9s both;
-}
-
-/* Botones */
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    padding: 18px 40px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-decoration: none;
-    border-radius: 50px;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-.btn::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-    transition: left 0.5s;
-}
-
-.btn:hover::before {
-    left: 100%;
-}
-
-.btn-primary {
-    background: var(--secondary-gradient);
-    color: white;
-    box-shadow: 0 8px 25px rgba(240, 147, 251, 0.4);
-}
-
-.btn-secondary {
-    background: var(--accent-gradient);
-    color: white;
-    box-shadow: 0 8px 25px rgba(79, 172, 254, 0.4);
-}
-
-.btn-outline {
-    background: transparent;
-    color: white;
-    border: 2px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(10px);
-}
-
-.btn:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-    color: white;
-    text-decoration: none;
-}
-
-/* Secciones */
-.section {
-    padding: 100px 20px;
-    position: relative;
-}
-
-.section-alt {
-    background: var(--light-bg);
-}
-
-.section-title {
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 900;
-    text-align: center;
-    margin-bottom: 80px;
-    background: var(--primary-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    position: relative;
-}
-
-.section-title::after {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 4px;
-    background: var(--secondary-gradient);
-    border-radius: 2px;
-}
-
-/* Cards Proyectos */
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 40px;
-    margin: 80px 0;
-}
-
-.project-card {
-    background: white;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-light);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    group: hover;
-}
-
-.project-card:hover {
-    transform: translateY(-15px);
-    box-shadow: var(--shadow-heavy);
-}
-
-.project-image {
-    height: 280px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.project-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9));
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-card:hover .project-overlay {
-    opacity: 1;
-}
-
-.project-overlay-text {
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-align: center;
-    transform: translateY(20px);
-    transition: transform 0.4s ease;
-}
-
-.project-card:hover .project-overlay-text {
-    transform: translateY(0);
-}
-
-.project-content {
-    padding: 30px;
-}
-
-.project-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-    color: #1a202c;
-}
-
-.project-description {
-    color: #6b7280;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.project-tag {
-    display: inline-block;
-    background: var(--primary-gradient);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
-/* Estadísticas */
-.stats {
-    background: var(--primary-gradient);
-    color: white;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.stats::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
-    animation: rotate 20s linear infinite;
-}
-
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 50px;
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-}
-
-.stat {
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    padding: 40px 30px;
-    border-radius: var(--radius-md);
-    transition: all 0.4s ease;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.stat:hover {
-    transform: translateY(-10px);
-    background: rgba(255,255,255,0.15);
-}
-
-.stat-number {
-    font-size: 4rem;
-    font-weight: 900;
-    margin-bottom: 15px;
-    background: linear-gradient(45deg, #fff, #f0f0f0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.stat-label {
-    font-size: 1.2rem;
-    opacity: 0.9;
-    font-weight: 500;
-}
-
-/* Galería de Proyectos */
-.projects-gallery {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-auto-rows: 250px;
-    gap: 25px;
-    margin-bottom: 50px;
-}
-
-.gallery-item {
-    position: relative;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.gallery-item.large {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.gallery-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
-}
-
-.gallery-image {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    cursor: pointer;
-}
-
-.gallery-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(transparent, rgba(0,0,0,0.8));
-    color: white;
-    padding: 30px 25px 25px;
-    transform: translateY(20px);
-    opacity: 0;
-    transition: all 0.4s ease;
-}
-
-.gallery-item:hover .gallery-overlay {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.gallery-overlay h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.gallery-overlay p {
-    font-size: 1rem;
-    opacity: 0.9;
-    margin: 0;
-}
-
-/* Inventario */
-.inventory {
-    background: var(--light-bg);
-}
-
-.inventory-hero {
-    background: white;
-    padding: 60px;
-    border-radius: var(--radius-lg);
-    margin-bottom: 80px;
-    box-shadow: var(--shadow-light);
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.inventory-hero::before {
-    content: '📦';
-    position: absolute;
-    top: -20px;
-    right: -20px;
-    font-size: 8rem;
-    opacity: 0.1;
-    transform: rotate(15deg);
-}
-
-.inventory-description {
-    font-size: 1.3rem;
-    line-height: 1.8;
-    color: #4b5563;
-    margin-bottom: 40px;
-}
-
-.inventory-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-}
-
-.inventory-category {
-    background: white;
-    border-radius: var(--radius-md);
-    overflow: hidden;
-    box-shadow: var(--shadow-light);
-    transition: all 0.4s ease;
-}
-
-.inventory-category:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-medium);
-}
-
-.category-header {
-    background: var(--primary-gradient);
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
-
-.category-icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    display: block;
-}
-
-.category-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.category-subtitle {
-    opacity: 0.9;
-    font-size: 1rem;
-}
-
-.category-content {
-    padding: 30px;
-}
-
-.category-items {
-    list-style: none;
-}
-
-.category-items li {
-    padding: 12px 0;
-    border-bottom: 1px solid #e5e7eb;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    transition: all 0.3s ease;
-}
-
-.category-items li:hover {
-    padding-left: 10px;
-    color: #667eea;
-}
-
-.category-items li::before {
-    content: '✅';
-    flex-shrink: 0;
-}
-
-.category-items li:last-child {
-    border-bottom: none;
-}
-
-/* Calculadora */
-.calculator-section {
-    background: linear-gradient(135deg, #2563eb 0%, #3730a3 100%);
-    color: white;
-    position: relative;
-    overflow: hidden;
-}
-
-.calculator-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-opacity="0.1" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-}
-
-.calculator {
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(20px);
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 60px;
-    border-radius: var(--radius-lg);
-    position: relative;
-    z-index: 2;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.form-group {
-    margin-bottom: 30px;
-}
-
-.form-label {
-    display: block;
-    margin-bottom: 12px;
-    font-weight: 700;
-    color: rgba(255,255,255,0.95);
-    font-size: 1.1rem;
-}
-
-.form-control {
-    width: 100%;
-    padding: 18px 24px;
-    border: 2px solid rgba(255,255,255,0.2);
-    border-radius: var(--radius-sm);
-    background: rgba(255,255,255,0.1);
-    color: white;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-}
-
-.form-control:focus {
-    outline: none;
-    border-color: rgba(255,255,255,0.6);
-    background: rgba(255,255,255,0.15);
-    box-shadow: 0 0 20px rgba(255,255,255,0.2);
-}
-
-.form-control::placeholder {
-    color: rgba(255,255,255,0.7);
-}
-
-.form-control option {
-    background: #1e40af;
-    color: white;
-}
-
-.quote-result {
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(20px);
-    padding: 40px;
-    border-radius: var(--radius-md);
-    margin-top: 40px;
-    display: none;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.quote-result.show {
-    display: block;
-    animation: slideInUp 0.5s ease-out;
-}
-
-.quote-details {
-    background: rgba(255,255,255,0.1);
-    padding: 30px;
-    border-radius: var(--radius-sm);
-    margin: 25px 0;
-    text-align: left;
-}
-
-.quote-details p {
-    margin: 15px 0;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.1rem;
-}
-
-.quote-total {
-    font-size: 1.5rem !important;
-    font-weight: 900;
-    border-top: 2px solid rgba(255,255,255,0.3);
-    padding-top: 20px;
-    margin-top: 20px;
-    color: #fbbf24;
-}
-
-/* Contacto */
-.contact {
-    background: var(--dark-gradient);
-    color: white;
-}
-
-.contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px;
-    margin-top: 80px;
-}
-
-.contact-card {
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(20px);
-    padding: 50px;
-    border-radius: var(--radius-md);
-    text-align: center;
-    transition: all 0.4s ease;
-    border: 1px solid rgba(255,255,255,0.1);
-}
-
-.contact-card:hover {
-    transform: translateY(-15px);
-    background: rgba(255,255,255,0.1);
-    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-}
-
-.contact-icon {
-    font-size: 4rem;
-    margin-bottom: 30px;
-    display: block;
-    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
-}
-
-.contact-card h3 {
-    font-size: 1.8rem;
-    margin-bottom: 25px;
-    font-weight: 800;
-}
-
-.contact-card p {
-    margin: 15px 0;
-    line-height: 1.8;
-    font-size: 1.1rem;
-}
-
-.contact-highlight {
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(20px);
-    margin-top: 80px;
-    padding: 60px;
-    border-radius: var(--radius-lg);
-    text-align: center;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.contact-highlight h3 {
-    font-size: 3rem;
-    margin-bottom: 25px;
-    font-weight: 900;
-}
-
-.social-buttons {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-/* Footer */
-.footer {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-    position: relative;
-}
-
-.footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: var(--secondary-gradient);
-}
-
-.footer p {
-    margin: 20px 0;
-    line-height: 1.8;
-}
-
-.footer-social {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
-    flex-wrap: wrap;
-}
-
-.footer-social a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: all 0.4s ease;
-    padding: 15px 25px;
-    border-radius: 25px;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.2);
-}
-
-.footer-social a:hover {
-    color: #f59e0b;
-    transform: translateY(-5px);
-    background: rgba(255,255,255,0.15);
-    text-decoration: none;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .hero {
-        padding: 80px 20px;
-    }
-    
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .section {
-        padding: 80px 20px;
-    }
-    
-    .inventory-hero {
-        padding: 40px 20px;
-    }
-    
-    .projects-grid,
-    .inventory-grid,
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .gallery-grid {
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-    }
-    
-    .gallery-item.large {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-    
-    .whatsapp-float {
-        bottom: 20px;
-        right: 20px;
-        width: 60px;
-        height: 60px;
-        font-size: 24px;
-    }
-    
-    .contact-highlight {
-        padding: 40px 20px;
-    }
-    
-    .footer-social {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn {
-        padding: 15px 30px;
-        font-size: 1rem;
-    }
-    
-    .project-card,
-    .inventory-category {
-        margin: 0 10px;
-    }
-}
-
-/* Animaciones de entrada */
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 0.8s ease-out forwards;
-}
-
-.slide-in-left {
-    opacity: 0;
-    transform: translateX(-50px);
-    animation: slideInLeft 0.8s ease-out forwards;
-}
-
-@keyframes slideInLeft {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.slide-in-right {
-    opacity: 0;
-    transform: translateX(50px);
-    animation: slideInRight 0.8s ease-out forwards;
-}
-
-@keyframes slideInRight {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-</style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* WhatsApp flotante */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25d366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white !important;
+            text-decoration: none !important;
+            font-size: 24px;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: white !important;
+            text-decoration: none !important;
+        }
+        
+        /* Contenedor */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+        
+        .hero-subtitle {
+            font-size: clamp(1.2rem, 4vw, 1.8rem);
+            margin-bottom: 40px;
+            opacity: 0.95;
+        }
+        
+        .hero-info {
+            background: rgba(255,255,255,0.15);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 40px auto;
+            max-width: 700px;
+            font-weight: bold;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        /* Botones */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 16px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none !important;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white !important;
+        }
+        
+        .btn-secondary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white !important;
+        }
+        
+        .btn-outline {
+            background: transparent;
+            color: white !important;
+            border: 2px solid rgba(255,255,255,0.4);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            color: white !important;
+            text-decoration: none !important;
+        }
+        
+        /* Secciones */
+        .section {
+            padding: 80px 20px;
+        }
+        
+        .section-alt {
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 6vw, 3.5rem);
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 60px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        /* Galería de proyectos */
+        .projects-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .project-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .project-info {
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .project-info h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #2563eb;
+        }
+        
+        .project-info p {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+        
+        /* About */
+        .about-content {
+            background: rgba(255,255,255,0.9);
+            padding: 50px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .about-text {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            color: #4b5563;
+        }
+        
+        .specialties {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .specialty {
+            background: rgba(255,255,255,0.9);
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .specialty:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+        
+        .specialty-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .specialty h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+        
+        .specialty p {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+        
+        /* Stats */
+        .stats {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .stat {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .stat:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+        
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        
+        /* Equipment */
+        .equipment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .equipment-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .equipment-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .equipment-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .equipment-info {
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .equipment-info h4 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+        
+        .equipment-info p {
+            color: #6b7280;
+            line-height: 1.5;
+        }
+        
+        /* Contact */
+        .contact {
+            background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+            color: white;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .contact-card {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.15);
+        }
+        
+        .contact-icon {
+            font-size: 4rem;
+            margin-bottom: 25px;
+            display: block;
+        }
+        
+        .contact-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .contact-card p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        
+        /* Footer */
+        .footer {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        .footer p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .section {
+                padding: 60px 20px;
+            }
+            
+            .about-content {
+                padding: 30px 20px;
+            }
+            
+            .specialties,
+            .equipment-grid,
+            .projects-gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .btn {
+                padding: 12px 24px;
+                font-size: 1rem;
+            }
+            
+            .equipment-card,
+            .project-card {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/573117403766?text=Hola,%20necesito%20información%20sobre%20alquiler%20de%20equipos%20certificados" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">💬</a>
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/573117403766?text=Hola,%20necesito%20información%20sobre%20alquiler%20de%20equipos" class="whatsapp-float">
+        💬
+    </a>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1>🏗️ EQUIPOS ALKILARTE</h1>
-                <p class="hero-subtitle">Especialistas en Alquiler de Equipos Certificados para Construcción</p>
-                
-                <div class="hero-badge">
-                    📍 Sede Dosquebradas, Risaralda | 📞 311 740 3766 - 321 612 1421 | ⭐ Más de 182 proyectos exitosos | 🏆 Equipos 100% Certificados
-                </div>
-                
-                <div class="hero-buttons">
-                    <a href="https://www.instagram.com/alkilartepereira" target="_blank" class="btn btn-primary">📸 @alkilartepereira</a>
-                    <a href="https://wa.me/573117403766?text=Hola,%20necesito%20cotización%20de%20equipos" class="btn btn-outline">💬 Cotizar WhatsApp</a>
-                    <a href="#gallery" class="btn btn-secondary">📸 Ver Proyectos</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Proyectos Reales -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">🏆 Proyectos Reales en Ejecución</h2>
-            <p style="text-align: center; font-size: 1.3rem; color: #6b7280; margin-bottom: 50px;">
-                Nuestros equipos trabajando en proyectos reales de construcción en Dosquebradas y la región
-            </p>
+            <h1>🔧 EQUIPOS ALKILARTE</h1>
+            <p class="hero-subtitle">Especialistas en Alquiler de Equipos Certificados para Construcción</p>
             
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%23667eea&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;150&quot; font-family=&quot;Arial&quot; font-size=&quot;20&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏢 Proyecto Edificio Centro</text></svg>');">
-                        <div class="project-overlay">
-                            <div class="project-overlay-text">
-                                Ver Proyecto Completo
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Andamios Multidireccionales - Centro Dosquebradas</h3>
-                        <p class="project-description">Sistema de andamiaje certificado instalado en edificio de 8 pisos. Configuración adaptativa para geometría compleja con máxima seguridad.</p>
-                        <span class="project-tag">🏗️ Andamios Certificados</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%23f093fb&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;150&quot; font-family=&quot;Arial&quot; font-size=&quot;20&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏗️ Construcción Residencial</text></svg>');">
-                        <div class="project-overlay">
-                            <div class="project-overlay-text">
-                                Ver Detalles del Proyecto
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Proyecto Residencial con Mezcladora</h3>
-                        <p class="project-description">Andamios tubulares + mezcladora de cemento azul para construcción de vivienda unifamiliar. Combo completo de equipos.</p>
-                        <span class="project-tag">🔨 Combo Equipos</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%234facfe&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;150&quot; font-family=&quot;Arial&quot; font-size=&quot;20&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏢 Fachada Comercial</text></svg>');">
-                        <div class="project-overlay">
-                            <div class="project-overlay-text">
-                                Instalación Profesional
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Andamios de Fachada - Proyecto Comercial</h3>
-                        <p class="project-description">Instalación de andamios certificados para mantenimiento de fachada en edificio comercial. Sistema de alta seguridad.</p>
-                        <span class="project-tag">🏢 Mantenimiento</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Estadísticas -->
-    <section class="section stats">
-        <div class="container">
-            <h2 class="section-title" style="color: white;">📊 Números que nos Respaldan</h2>
-            <div class="stats-grid">
-                <div class="stat">
-                    <div class="stat-number">182+</div>
-                    <div class="stat-label">Proyectos Exitosos</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">5+</div>
-                    <div class="stat-label">Años Especializados</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Equipos Certificados</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Soporte WhatsApp</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Inventario Disponible -->
-    <section class="section inventory">
-        <div class="container">
-            <h2 class="section-title">📦 Nuestro Inventario Disponible</h2>
-            
-            <div class="inventory-hero">
-                <h3 style="font-size: 2rem; margin-bottom: 30px; color: #1a202c;">✅ Stock Disponible en Nuestras Instalaciones</h3>
-                <p class="inventory-description">
-                    Contamos con inventario organizado y disponible en nuestra sede de Dosquebradas. Equipos certificados y listos para entrega inmediata en toda la región del Eje Cafetero.
-                </p>
-                <div style="background: var(--primary-gradient); color: white; padding: 20px; border-radius: 15px; font-weight: 700; font-size: 1.2rem;">
-                    🚚 Entrega a domicilio disponible | 📞 Consulta disponibilidad en tiempo real
-                </div>
+            <div class="hero-info">
+                📍 Sede Dosquebradas, Risaralda | 📞 311 740 3766 - 321 612 1421 | ⭐ Más de 182 proyectos exitosos | 🏆 Equipos 100% Certificados
             </div>
             
-            <div class="inventory-grid">
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">🏗️</span>
-                        <h3 class="category-title">Andamios Certificados</h3>
-                        <p class="category-subtitle">Sistemas modulares profesionales</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Andamios multidireccionales certificados</li>
-                            <li>Andamios tubulares tradicionales</li>
-                            <li>Andamios de fachada especializados</li>
-                            <li>Plataformas de trabajo seguras</li>
-                            <li>Escaleras de acceso incluidas</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">🔧</span>
-                        <h3 class="category-title">Accesorios Metálicos</h3>
-                        <p class="category-subtitle">Componentes y conectores</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Tacos metálicos (múltiples medidas)</li>
-                            <li>Cerchas de 3, 4 y 5 metros</li>
-                            <li>Tableros antideslizantes</li>
-                            <li>Conectores y abrazaderas certificadas</li>
-                            <li>Barandas de seguridad</li>
-                            <li>Puntales ajustables</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">🔨</span>
-                        <h3 class="category-title">Equipos de Mezclado</h3>
-                        <p class="category-subtitle">Mezcladoras profesionales</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Mezcladora 1 bulto (portátil)</li>
-                            <li>Mezcladora 2 bultos (mediana)</li>
-                            <li>Modelos eléctricos y a gasolina</li>
-                            <li>Incluye capacitación de uso</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">⚡</span>
-                        <h3 class="category-title">Plantas Eléctricas</h3>
-                        <p class="category-subtitle">Generadores confiables</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Generadores 3kW - 5kW (residencial)</li>
-                            <li>Generadores 6kW - 10kW (comercial)</li>
-                            <li>Combustible diésel y gasolina</li>
-                            <li>Instalación y capacitación</li>
-                            <li>Soporte técnico incluido</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">🦘</span>
-                        <h3 class="category-title">Compactación</h3>
-                        <p class="category-subtitle">Ranas y canguros</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Ranas vibrocompactadoras</li>
-                            <li>Canguros compactadores</li>
-                            <li>Rodillos vibratorios</li>
-                            <li>Diferentes capacidades disponibles</li>
-                            <li>Para todo tipo de suelos</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inventory-category">
-                    <div class="category-header">
-                        <span class="category-icon">🚚</span>
-                        <h3 class="category-title">Servicios Incluidos</h3>
-                        <p class="category-subtitle">Valor agregado</p>
-                    </div>
-                    <div class="category-content">
-                        <ul class="category-items">
-                            <li>Entrega a domicilio en la región</li>
-                            <li>Instalación profesional</li>
-                            <li>Capacitación en seguridad</li>
-                            <li>Soporte técnico 24/7</li>
-                            <li>Mantenimiento preventivo</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">📸 VER PROYECTOS</a>
+                <a href="https://wa.me/573117403766?text=Necesito%20cotización" class="btn btn-secondary">💬 COTIZAR WHATSAPP</a>
+                <a href="https://instagram.com/alkilartepereira" class="btn btn-outline">📱 @ALKILARTEPEREIRA</a>
             </div>
         </div>
     </section>
 
     <!-- Galería de Proyectos Reales -->
-    <section id="gallery" class="section calculator-section">
+    <section id="proyectos" class="section">
         <div class="container">
-            <h2 class="section-title" style="color: white;">📸 Nuestros Proyectos en Acción</h2>
-            <p style="font-size: 1.4rem; margin-bottom: 60px; text-align: center; opacity: 0.95;">
-                Fotos reales de nuestros equipos trabajando en proyectos de construcción
+            <h2 class="section-title">Nuestros Equipos Trabajando en Proyectos Reales</h2>
+            <p style="text-align: center; font-size: 1.2rem; color: #6b7280; margin-bottom: 50px;">
+                Fotos reales de nuestros equipos en funcionamiento en obras de construcción de Dosquebradas y la región
             </p>
             
             <div class="projects-gallery">
-                <div class="gallery-grid">
-                    <div class="gallery-item large">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 600 400&quot;><rect fill=&quot;%23667eea&quot; width=&quot;600&quot; height=&quot;400&quot;/><text x=&quot;300&quot; y=&quot;180&quot; font-family=&quot;Arial&quot; font-size=&quot;24&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏢 Nuestra Sede</text><text x=&quot;300&quot; y=&quot;220&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>Dosquebradas, Risaralda</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>🏢 Nuestra Sede en Dosquebradas</h3>
-                                <p>Instalaciones propias con inventario organizado y disponible</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%23f093fb&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏗️ Andamios</text><text x=&quot;200&quot; y=&quot;160&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>Multidireccionales</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>🏗️ Andamios Multidireccionales</h3>
-                                <p>Proyecto edificio comercial</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%234facfe&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏢 Fachada</text><text x=&quot;200&quot; y=&quot;160&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>Certificada</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>🏢 Andamios de Fachada</h3>
-                                <p>Sistema certificado de seguridad</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%2325d366&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🔨 Mezcladora</text><text x=&quot;200&quot; y=&quot;160&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>en Proyecto</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>🔨 Mezcladora en Obra</h3>
-                                <p>Combo andamios + mezcladora</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%23f59e0b&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>🏠 Construcción</text><text x=&quot;200&quot; y=&quot;160&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>Residencial</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>🏠 Proyecto Residencial</h3>
-                                <p>Andamios tubulares seguros</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <div class="gallery-image" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 400 300&quot;><rect fill=&quot;%236366f1&quot; width=&quot;400&quot; height=&quot;300&quot;/><text x=&quot;200&quot; y=&quot;140&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>📦 Nuestro</text><text x=&quot;200&quot; y=&quot;160&quot; font-family=&quot;Arial&quot; font-size=&quot;18&quot; fill=&quot;white&quot; text-anchor=&quot;middle&quot; dy=&quot;.3em&quot;>Inventario</text></svg>'); background-size: cover; background-position: center;">
-                            <div class="gallery-overlay">
-                                <h3>📦 Nuestro Inventario</h3>
-                                <p>Equipos organizados y disponibles</p>
-                            </div>
-                        </div>
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/31809c19-9f37-4960-9b83-45d937992344" alt="Sistema de andamiaje certificado instalado en edificio" class="project-image">
+                    <div class="project-info">
+                        <h3>🏗️ Andamios Certificados</h3>
+                        <p>Sistema de andamiaje certificado instalado en edificio de 8 pisos. Configuración adaptativa para geometría compleja con máxima seguridad.</p>
                     </div>
                 </div>
                 
-                <div style="text-align: center; margin-top: 50px;">
-                    <a href="https://wa.me/573117403766?text=Hola,%20vi%20sus%20proyectos%20y%20me%20interesa%20cotizar%20equipos" class="btn btn-primary" style="padding: 20px 50px; font-size: 1.3rem;">
-                        📱 Solicitar Cotización de Proyecto
-                    </a>
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/c5c4056b-700c-4fd4-890c-f3e84950d4c2" alt="Andamios tubulares con mezcladora en construcción" class="project-image">
+                    <div class="project-info">
+                        <h3>🔨 Combo Equipos</h3>
+                        <p>Andamios tubulares + mezcladora de cemento azul para construcción de vivienda unifamiliar. Combo completo de equipos.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/d8277995-3cc5-458b-af33-dd8b2f4113ba" alt="Instalación de andamios para mantenimiento de fachada" class="project-image">
+                    <div class="project-info">
+                        <h3>🏢 Mantenimiento</h3>
+                        <p>Instalación de andamios certificados para mantenimiento de fachada en edificio comercial. Sistema de alta seguridad.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/938ffd40-8240-4c48-941e-fce860814cd8" alt="Inventario organizado en sede de Dosquebradas" class="project-image">
+                    <div class="project-info">
+                        <h3>🏪 Nuestra Sede</h3>
+                        <p>Contamos con inventario organizado y disponible en nuestra sede de Dosquebradas. Equipos certificados y listos para entrega inmediata en toda la región del Eje Cafetero.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/272ac236-126a-41dc-8157-1cb92b693dd8" alt="Ranas compactadoras en funcionamiento" class="project-image">
+                    <div class="project-info">
+                        <h3>🔨 Compactación</h3>
+                        <p>Ranas saltarinas y equipos de compactación vibratoria trabajando en preparación de terrenos para cimentación.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://github.com/user-attachments/assets/483ddd31-24e5-4664-ab66-9dc6b6bc4ebb" alt="Plantas eléctricas en proyectos de construcción" class="project-image">
+                    <div class="project-info">
+                        <h3>⚡ Plantas Eléctricas</h3>
+                        <p>Generadores de diferentes capacidades suministrando energía confiable en sitios de construcción sin acceso a red eléctrica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiénes Somos -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Somos <strong>Equipos Alkilarte</strong>, una empresa especializada en el alquiler de equipos para construcción en el Eje Cafetero. Contamos con personal capacitado en la atención de las necesidades de nuestros clientes y más de <strong>182 seguidores</strong> que confían en nuestro servicio.
+                </p>
+            </div>
+            
+            <div class="specialties">
+                <div class="specialty">
+                    <span class="specialty-icon">🏗️</span>
+                    <h3>Andamios Certificados</h3>
+                    <p>Sistemas modulares seguros y adaptables para cualquier proyecto de construcción</p>
+                </div>
+                
+                <div class="specialty">
+                    <span class="specialty-icon">🔨</span>
+                    <h3>Equipos de Compactación</h3>
+                    <p>Ranas saltarinas y equipos especializados para preparación de terrenos</p>
+                </div>
+                
+                <div class="specialty">
+                    <span class="specialty-icon">⚡</span>
+                    <h3>Plantas Eléctricas</h3>
+                    <p>Generadores de diferentes capacidades para energía confiable en obra</p>
+                </div>
+                
+                <div class="specialty">
+                    <span class="specialty-icon">🔧</span>
+                    <h3>Accesorios Metálicos</h3>
+                    <p>Tacos, cerchas y conectores certificados para complementar tus proyectos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Números que nos Respaldan -->
+    <section class="section stats">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Números que nos Respaldan</h2>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-number">182+</div>
+                    <div class="stat-label">Clientes Satisfechos</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Equipos Certificados</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipos Detallados -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">🏗️ ANDAMIOS CERTIFICADOS</h2>
+            <div class="about-content">
+                <p>Sistema modular de andamiaje diseñado para proporcionar una plataforma de trabajo segura y adaptable en una amplia variedad de proyectos de construcción, mantenimiento industrial y obras civiles. Su principal característica y ventaja radica en su versatilidad y la capacidad de adaptarse a geometrías complejas, gracias a su sistema de conexión que permite unir componentes en múltiples ángulos.</p>
+            </div>
+            
+            <div class="equipment-grid">
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/8d21ebbf-eb26-4dea-8b6b-9b169847cffa" alt="Andamios para fachadas de edificios" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Andamios Fachada</h4>
+                        <p>Sistema modular para fachadas de edificios con máxima seguridad</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/84d49994-fadc-4e20-8984-da5877de5c41" alt="Estructuras certificadas para trabajos de gran altura" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Andamios Altura</h4>
+                        <p>Estructuras certificadas para trabajos de gran altura</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/1db11678-5ada-4f76-aeac-84dc826f5038" alt="Implementación integral en proyectos de construcción" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Proyecto Completo</h4>
+                        <p>Implementación integral en proyectos de construcción</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/bcf56adc-24df-4994-84d5-76a458141cad" alt="Stock disponible en nuestras instalaciones" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Inventario Bodega</h4>
+                        <p>Stock disponible en nuestras instalaciones</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipos de Compactación -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">🔨 EQUIPOS DE COMPACTACIÓN</h2>
+            <div class="about-content">
+                <p>Ranas saltarinas y canguros para compactación, también conocidos como equipos de compactación vibratoria. Es un tipo de maquinaria especializada ampliamente utilizada en trabajos de construcción, preparación de terrenos y compactación de suelos. Se pueden usar para diferentes tipos de suelo y aplicaciones según sea requerido.</p>
+            </div>
+            
+            <div class="equipment-grid">
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/33ef4cb9-b907-41ab-b188-c6e713f1a5b7" alt="Equipo de compactación vibratoria de alta eficiencia" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Rana en Operación</h4>
+                        <p>Equipo de compactación vibratoria de alta eficiencia</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/837d8f5c-0c5b-4df1-8415-fa462a3110e6" alt="Equipo complementario para trabajos de construcción" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Mezcladora en Obra</h4>
+                        <p>Equipo complementario para trabajos de construcción</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/6406c7ed-f6cd-40e6-b083-329ada5ea786" alt="Preparación profesional de superficies y terrenos" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Compactación Terreno</h4>
+                        <p>Preparación profesional de superficies y terrenos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plantas Eléctricas -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">⚡ PLANTAS ELÉCTRICAS</h2>
+            <div class="about-content">
+                <p>Generadores eléctricos portátiles de diferentes capacidades diseñados para proporcionar energía confiable en sitios de construcción donde no hay acceso a la red eléctrica. Perfectas para alimentar herramientas eléctricas, iluminación de obra y equipos especializados durante el desarrollo de proyectos.</p>
+            </div>
+            
+            <div class="equipment-grid">
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/f4dc2f3d-6d39-4e0c-b283-1e81f5e8f57b" alt="Generadores de diferentes capacidades y potencias" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Plantas Disponibles</h4>
+                        <p>Generadores de diferentes capacidades y potencias</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/f2d381a7-1d21-4869-940d-779c7f9cb6b5" alt="Nuestras instalaciones en Dosquebradas, Risaralda" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Sede Física</h4>
+                        <p>Nuestras instalaciones en Dosquebradas, Risaralda</p>
+                    </div>
+                </div>
+                
+                <div class="equipment-card">
+                    <img src="https://github.com/user-attachments/assets/483ddd31-24e5-4664-ab66-9dc6b6bc4ebb" alt="Generadores funcionando en proyectos reales" class="equipment-image">
+                    <div class="equipment-info">
+                        <h4>Plantas en Obra</h4>
+                        <p>Generadores funcionando en proyectos reales</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1257,53 +699,37 @@ body {
     <!-- Contacto -->
     <section class="section contact">
         <div class="container">
-            <h2 class="section-title" style="color: white;">📞 Contáctanos - Estamos Listos para tu Proyecto</h2>
-            <p style="font-size: 1.5rem; margin-bottom: 40px; text-align: center; opacity: 0.95;">
-                Especialistas disponibles para asesorarte - Cotización personalizada en minutos
+            <h2 class="section-title" style="color: white;">Contáctanos</h2>
+            <p style="text-align: center; font-size: 1.3rem; margin-bottom: 40px;">
+                Especialistas disponibles para asesorarte • Cotización personalizada en minutos
             </p>
             
             <div class="contact-grid">
                 <div class="contact-card">
-                    <span class="contact-icon">📱</span>
-                    <h3>WhatsApp Directo</h3>
-                    <p style="font-size: 1.4rem; font-weight: 700; color: #25d366;">311 740 3766</p>
-                    <p style="font-size: 1.4rem; font-weight: 700; color: #25d366;">321 612 1421</p>
+                    <span class="contact-icon">📞</span>
+                    <h3>Teléfonos</h3>
+                    <p><strong>311 740 3766</strong></p>
+                    <p><strong>321 612 1421</strong></p>
                     <p>Respuesta inmediata • Cotización al instante</p>
-                    <a href="https://wa.me/573117403766?text=Hola,%20necesito%20cotización%20de%20equipos%20certificados%20para%20mi%20proyecto" class="btn btn-primary" style="margin-top: 25px;">💬 Escribir Ahora</a>
                 </div>
                 
                 <div class="contact-card">
                     <span class="contact-icon">📍</span>
-                    <h3>Nuestra Sede</h3>
+                    <h3>Ubicación</h3>
                     <p><strong>Dosquebradas, Risaralda</strong></p>
                     <p>Entrega a domicilio disponible</p>
-                    <p style="font-size: 1rem; opacity: 0.9; margin-top: 20px;">
-                        <strong>Cobertura completa:</strong><br>
-                        Pereira • Dosquebradas • La Virginia<br>
-                        Santa Rosa de Cabal • Cartago
-                    </p>
+                    <p><strong>Cobertura completa:</strong><br>
+                    Pereira • Dosquebradas • La Virginia<br>
+                    Santa Rosa de Cabal • Cartago</p>
                 </div>
                 
                 <div class="contact-card">
                     <span class="contact-icon">🕒</span>
-                    <h3>Horarios de Atención</h3>
+                    <h3>Horarios</h3>
                     <p><strong>Lunes a Sábado</strong></p>
-                    <p style="font-size: 1.3rem; font-weight: 700;">7:00 AM - 6:00 PM</p>
-                    <p style="margin-top: 20px; color: #25d366; font-weight: 600;">
-                        📱 WhatsApp disponible 24/7<br>
-                        🚨 Emergencias atendidas
-                    </p>
-                </div>
-            </div>
-            
-            <div class="contact-highlight">
-                <h3>🏗️ EQUIPOS ALKILARTE</h3>
-                <p style="font-size: 1.3rem; margin-bottom: 30px;">
-                    Tu socio especializado en equipos certificados para construcción en Dosquebradas
-                </p>
-                <div class="social-buttons">
-                    <a href="https://www.instagram.com/alkilartepereira" target="_blank" class="btn btn-primary">📸 @alkilartepereira</a>
-                    <a href="https://wa.me/573117403766?text=Hola,%20quiero%20conocer%20más%20sobre%20Equipos%20Alkilarte" class="btn btn-secondary">💬 WhatsApp</a>
+                    <p>7:00 AM - 6:00 PM</p>
+                    <p>📱 <strong>WhatsApp disponible 24/7</strong></p>
+                    <p>🚨 <strong>Emergencias atendidas</strong></p>
                 </div>
             </div>
         </div>
@@ -1312,22 +738,17 @@ body {
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p style="font-size: 1.3rem; font-weight: 700;">&copy; 2025 Equipos Alkilarte - Todos los derechos reservados</p>
-            <p style="opacity: 0.9;">Especialistas en Alquiler de Equipos Certificados | Dosquebradas, Risaralda</p>
-            <p style="opacity: 0.8; font-size: 1rem;">✅ Más de 182 proyectos exitosos en el Eje Cafetero | 🏆 100% Equipos Certificados</p>
-            
-            <div class="footer-social">
-                <a href="https://www.instagram.com/alkilartepereira" target="_blank">📸 Instagram</a>
-                <a href="https://wa.me/573117403766" target="_blank">💬 WhatsApp</a>
-                <a href="tel:+573117403766">📞 Llamar</a>
-                <a href="mailto:info@equiposalkilarte.com">✉️ Email</a>
-            </div>
+            <h3>🔧 EQUIPOS ALKILARTE</h3>
+            <p>Tu socio especializado en equipos certificados para construcción en Dosquebradas</p>
+            <p>📍 Dosquebradas, Risaralda | 📞 311 740 3766 - 321 612 1421</p>
+            <p>📱 Instagram: @alkilartepereira | 💬 WhatsApp: 311 740 3766</p>
+            <p>&copy; 2025 Equipos Alkilarte. Todos los derechos reservados.</p>
         </div>
     </footer>
 
     <script>
-        // Smooth scrolling mejorado
-        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+        // Smooth scrolling para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
@@ -1340,33 +761,7 @@ body {
             });
         });
 
-        // Animaciones al hacer scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        // Observar elementos para animaciones
-        document.querySelectorAll('.project-card, .inventory-category, .contact-card, .stat, .gallery-item').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(30px)';
-            el.style.transition = 'all 0.6s ease-out';
-            observer.observe(el);
-        });
-
-        console.log('🏗️ Equipos Alkilarte - Página especializada cargada exitosamente');
-        console.log('📸 Galería de proyectos reales activada');
-        console.log('📱 WhatsApp integrado correctamente');
-        console.log('🎯 SEO optimizado para Dosquebradas, Risaralda');
+        console.log('🔧 Equipos Alkilarte - Página con imágenes reales cargada correctamente');
     </script>
 </body>
 </html>
